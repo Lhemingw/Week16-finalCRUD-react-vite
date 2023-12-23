@@ -1,0 +1,39 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "bootstrap": "^5.3.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.9.0",
+    "react-dom": "^17",
+    "react-router-dom": "^5.3.4",
+    "vite": "^5.0.10",
+    "vite-plugin-svgr": "^4.2.0",
+    "vite-tsconfig-paths": "^4.2.2"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+   
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "<!--      Copyright (c) 2023 Promineo Tech     Author:  Promineo Tech Academic Team     Subject: React Router Boiler Plate   ------------------------------------------->",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
