@@ -1,7 +1,8 @@
 import React from 'react';
-import './App.css';
-import Header from './Components/header';
-import  Footer  from './Components/footer';
+// import './App.css';
+import 'src/App.css';
+import Header from 'src/Components/header.jsx';
+import  Footer  from 'src/Components/footer.jsx';
 // import Nav from "react-bootstrap/Nav";
 import {BrowserRouter as Router,
   Route, 
@@ -10,9 +11,10 @@ import {BrowserRouter as Router,
 } from 'react-router-dom';
 
 //  imported everything I needed React, Header, Footer, and brower router 
-import Home from './routes/Home'
-import About from './routes/About'
-import Finances from './routes/Finances'
+// import Home from './routes/Home'
+import Home from 'src/routes/Home.jsx'
+import About from 'src/routes/Aboutjsx'
+import Finances from 'src/routes/Finances.jsx'
 
 // imported the routes.
 //import AboutFinance from './Components/AboutFinance'
