@@ -2,7 +2,7 @@ import React from 'react';
 // import './App.css';
 import 'src/App.css';
 import Header from 'src/Components/header.jsx';
-import  Footer  from 'src/Components/footer.jsx';
+import Footer from 'src/Components/footer.jsx';
 // import Nav from "react-bootstrap/Nav";
 import {BrowserRouter as Router,
   Route, 
@@ -54,7 +54,7 @@ export default function App() {
      <Header />
     
      {/* <Copyright /> */}
-      {/* <h1>Hello World 🌎</h1> */}
+      <h1>Hello World 🌎</h1>
     </div>
     {/* I have a router in a link to start to get the links poster.  */}
     <Router>
